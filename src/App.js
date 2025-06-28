@@ -933,9 +933,6 @@ import axios from "axios";
 
 const App = () => {
   const [arabic, setArabic] = useState([]);
-  const [english, setEnglish] = useState([]);
-  // const [audio, setAudio] = useState([]);
-  const audio = new Audio('some-url.mp3');
   const [loading, setLoading] = useState(true);
   const [activeAyah, setActiveAyah] = useState(null);
   const [selectedSurah, setSelectedSurah] = useState("all");
